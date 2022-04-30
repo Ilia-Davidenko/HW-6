@@ -3,11 +3,11 @@
 // 1, -7, 567, 89, 223-> 3
 
 Console.WriteLine("Введите пять чисел");
-int a = int.Parse(Console.ReadLine());
-int b = int.Parse(Console.ReadLine());
-int c = int.Parse(Console.ReadLine());
-int d = int.Parse(Console.ReadLine());
-int e = int.Parse(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
+int d = Convert.ToInt32(Console.ReadLine());
+int e = Convert.ToInt32(Console.ReadLine());
 
 int sum = 0;
 
